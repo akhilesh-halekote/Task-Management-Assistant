@@ -22,26 +22,23 @@ This project is a Python-based task management assistant that integrates with th
 - A Todoist account and API key
 - Access to Google Generative AI API and API key
 
-## Installation
-
-1. Clone the repository
-
 ## Usage
-1. Navigate to the project directory
-2. Install the required packages
+1. Clone the repository
+2. Navigate to the project directory
+3. Install the required packages
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file in the root directory and add your API keys
+4. Create a `.env` file in the root directory and add your API keys
    ```
     TODOIST_API_KEY=your_todoist_api_key
     GOOGLE_API_KEY=your_google_api_key
     TODOIST_PROJECT_ID=your_todoist_project_id
     ```
-4. Run the script
-5. Follow the prompts to add tasks, show tasks, or ask general questions.
-6. To exit the program, type 'end' when prompted for input.
-7. Enjoy managing your tasks with ease!
+5. Run the script
+6. Follow the prompts to add tasks, show tasks, or ask general questions.
+7. To exit the program, type 'end' when prompted for input.
+8. Enjoy managing your tasks with ease!
 
 ## Contact
 For any questions or suggestions, feel free to open an issue or contact - akhileshhalekotemohan@gmail.com
